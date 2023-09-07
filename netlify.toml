@@ -2,4 +2,3 @@
 base = "/"
 publish = "/client/build"
 functions = "/server"
-command = "npm build"
