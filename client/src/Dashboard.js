@@ -57,7 +57,7 @@ export default function Dashboard({code}) {
   return (
     <Container className='d-flex flex-column py-2 dashboard' style={{height: '100vh'}}>
       <div className='logo'><img src={whiteLogo} alt='white icon'/></div>
-      <Form.Control type="search" placeholder='Search Songs or Artists' value={search} onChange={e => setSearch(e.target.value)}/>
+      <Form.Control className='form' type="search" placeholder='Search Songs or Artists' value={search} onChange={e => setSearch(e.target.value)}/>
       <div className='flex-grow-1 my-2' style={{overflowY: 'auto'}}>
         {searchResults.map(track => 
           <TrackSearchResult track={track} key={track.uri} chooseTrack={chooseTrack}/>
