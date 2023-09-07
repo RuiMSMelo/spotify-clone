@@ -1,4 +1,5 @@
 [build]
-publish = "/client/build" # Specify the directory where your frontend code will be built
-functions = "/server" # Specify the directory where your backend code resides
-command = "npm run build" # The build command for your frontend (modify this as needed)
+base = "/"
+publish = "/client/build"
+functions = "/server"
+command = "npm run build"
