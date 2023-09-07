@@ -1,0 +1,35 @@
+.dashboard {
+    margin: auto;
+    background-color: rgb(226, 226, 226);
+}
+div-player{
+    width: 100%;
+    color: white;
+}
+img {
+    margin-top: 20px;
+    width: 50vw
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.search-result {
+    border: solid 1px rgba(131, 131, 131, 0.764);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(186, 186, 186, 0.401);
+}
+.playerdiv {
+    margin: 0;
+    width: 100%;
+    border: solid 1px rgba(131, 131, 131, 0.764);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.form {
+    height: 100px;
+}
